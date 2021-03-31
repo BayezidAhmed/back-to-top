@@ -1,0 +1,76 @@
+/* back to top css start*/
+
+body{
+    height: 1000px;
+}
+#b-to-t{
+    display: none;
+}
+.back-to-top{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    right: 5%;
+    bottom: 10%;
+    background: #d9f573;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    border-radius: 50%;
+    border: 2px solid #1ABE84;
+    -webkit-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.3);
+            box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.3);
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.back-to-top:hover{
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background: #d9f573;
+    -webkit-box-shadow:inset 0px 0px 10px 5px rgb(0 0 0 / 15%);
+            box-shadow:inset 0px 0px 10px 5px rgb(0 0 0 / 15%);
+}
+.back-to-top:hover a{
+    padding-top:0px !important;
+    border: 2px solid #1ABE84;
+}
+.back-to-top:hover i{
+    color: #1ABE84;
+    border: 2px solid #1ABE84;
+}
+.back-to-top a{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 3px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.back-to-top a i{
+    height: 25px;
+    width: 25px;
+    color:#1ABE84;
+    border: 2px solid #1ABE84;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;  
+    -webkit-transition: all .5s;  
+    -o-transition: all .5s;  
+    transition: all .5s;
+}
+/* back to top btn css end */
